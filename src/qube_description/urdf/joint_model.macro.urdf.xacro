@@ -1,13 +1,12 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-  <!-- ================= PROPERTIES ================= -->
+  <!-- Dimensions -->
   <xacro:property name="box_size" value="0.102"/>
   <xacro:property name="rotor_length" value="0.01"/>
   <xacro:property name="rotor_radius" value="0.025"/>
   <xacro:property name="indicator_length" value="0.025"/>
 
-  <!-- ================= MACRO ================= -->
   <xacro:macro name="joint_model" params="prefix">
 
     <!-- Base -->
@@ -43,8 +42,7 @@
       </visual>
     </link>
 
-    <!-- ================= JOINTS ================= -->
-
+    <!-- Joints -->
     <!-- base -> stator -->
     <joint name="${prefix}stator_joint" type="fixed">
       <parent link="${prefix}base_link"/>

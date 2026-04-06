@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <robot name="joint_model" xmlns:xacro="http://www.ros.org/wiki/xacro">
 
-  <!-- Include macro file -->
+  <!-- Macro file -->
   <xacro:include filename="$(find joint_description)/urdf/joint_model.macro.urdf.xacro"/>
 
-  <!-- ================= MATERIALS ================= -->
+  <!-- Colour and material-->
   <material name="black">
     <color rgba="0 0 0 1"/>
   </material>
