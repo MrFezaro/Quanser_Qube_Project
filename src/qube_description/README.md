@@ -1,4 +1,4 @@
-# joint_description
+# qube_description
 
 A ROS2 package containing the URDF description of the Qube rotary servo system. It provides the robot model, RViz configuration, and a launch file for visualizing the model.
 
